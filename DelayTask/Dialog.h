@@ -17,6 +17,8 @@ public:
     ~Dialog();
 
 private Q_SLOTS:
+    void on_contRadio_toggled(bool checked);
+    void on_timeoutRadio_toggled(bool checked);
     void on_lineEdit_textChanged(const QString& text);
 
 private:
